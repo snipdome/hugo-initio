@@ -487,8 +487,8 @@ img {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  /*top: 0;
-  left: 0;*/
+  top: 0;
+  left: 0
 }
 .thumbnail:hover {
   color: #333;
