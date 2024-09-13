@@ -6,8 +6,16 @@
         "url": "#",
         "items": [
             {
-                "name": "Read the article",
-                "url": "https://link.springer.com/article/10.1007/s10921-024-01071-y"
+                "name": "Web design",
+                "url": "#"
+            },
+            {
+                "name": "Wordpress",
+                "url": "#"
+            },
+            {
+                "name": "Logotype",
+                "url": "#"
             }
         ]
     },
