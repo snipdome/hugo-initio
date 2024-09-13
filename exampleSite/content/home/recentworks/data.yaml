@@ -1,14 +1,11 @@
+---
 - id: 0
   name: Sample title - big data solutions
   image: images/s1.jpg
   url: "#"
   items:
-  - name: Web design
-    url: "#"
-  - name: Wordpress
-    url: "#"
-  - name: Logotype
-    url: "#"
+  - name: Read the article
+    url: "https://link.springer.com/article/10.1007/s10921-024-01071-y"
 - id: 1
   name: Pure ipsum - development services for people
   image: images/s1.jpg
