@@ -419,7 +419,7 @@ img {
   width: 100%;
   overflow: hidden; 
   /*height: 180px;*/
-  height: fit-content;
+  height:inherit;
   max-height: 180px;
   margin: 0 0 20px;
   position: relative;
