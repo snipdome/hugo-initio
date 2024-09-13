@@ -441,7 +441,8 @@ img {
   position: absolute;
   display: block;
   opacity: 0;
-  width: 100%;
+  /*width: 100%;*/
+  width: auto;
   /*height: 180px;*/
   height:200px;
   background-color: rgba(255, 255, 255, 0.8);
@@ -481,10 +482,13 @@ img {
   color: white;
 }
 .thumbnail img {
-  width: 100%;
+  /*width: 100%;*/
+  width: auto;
   position: absolute;
-  top: 0;
-  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  /*top: 0;
+  left: 0;*/
 }
 .thumbnail:hover {
   color: #333;
