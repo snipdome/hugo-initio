@@ -5,17 +5,17 @@
             <a class="thumbnail" href="{{ .url }}">
                 <span class="img">
                     <img src="{{ .image }}" alt="" style="margin-bottom:400px;">
-                    <span class="cover"><span class="more">{{ i18n "recent_works_click_text" }} &rarr;</span></span>
+                    <!-- <span class="cover"><span class="more">{{ i18n "recent_works_click_text" }} &rarr;</span></span> -->
                 </span>
                 <span class="title">{{ .name }}</span>
             </a>
-            <!-- <span class="details">
+            <span class="details">
                 {{ $len := sub (len .items) 1 }}
                 {{ range $i, $item := where .items "id" .index }}
                     <a href="{{ .url }}">{{ .name }}</a>
                     {{ if gt $len $i }} | {{ end }}
                 {{ end }}
-            </span> -->
+            </span>
         </div>
     {{ end }}
 </div>
