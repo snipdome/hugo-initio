@@ -416,7 +416,7 @@ img {
 }
 .thumbnail .img {
   display: block;
-  width: 100%;
+  /*width: 100%;*/
   overflow: hidden; 
   /*height: 180px;*/
   height:200px;
