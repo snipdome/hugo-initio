@@ -713,7 +713,7 @@ footer.entry-meta .meta-in {
   -moz-border-radius: 50%;
   -moz-background-clip: padding;
   border-radius: 50%;
-  background-clip: padding-box;
+  background-clip: crop; /*padding-box;*/
 }
 #comments .children {
   margin: 0 0 0 90px;
