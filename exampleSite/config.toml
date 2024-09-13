@@ -22,7 +22,7 @@ theme = "hugo-initio"
     showServices = true
     showRecentWorks = true
     showDownloads = true
-    showClients = true
+    showTools = true
 
     showFooterContact = true
     showFooterFollowMe = true

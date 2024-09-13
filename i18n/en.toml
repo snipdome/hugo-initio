@@ -4,8 +4,8 @@
 [home_recentworks]
     other = "Recent works"
 
-[home_clients]
-    other = "Clients"
+[home_tools]
+    other = "Tools"
 
 [404_title]
     other = "404"

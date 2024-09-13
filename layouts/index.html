@@ -13,7 +13,7 @@
                 {{ if (or (and (eq $stype "service") (.Site.Params.showServices))
                           (and (eq $stype "recentwork") (.Site.Params.showRecentWorks))
                           (and (eq $stype "download") (.Site.Params.showDownloads))
-                          (and (eq $stype "client") (.Site.Params.showClients))
+                          (and (eq $stype "tool") (.Site.Params.showTools))
                           (eq $stype "single")) }}
 
                      <div class="row section featured topspace">
@@ -29,8 +29,8 @@
                      {{ else if eq $stype "download" }}
                        {{ partial "home/download.html" . }}
 
-                     {{ else if eq $stype "client" }}
-                       {{ partial "home/clients.html" . }}
+                     {{ else if eq $stype "tool" }}
+                       {{ partial "home/tools.html" . }}
 
                      {{ else if eq $stype "single"  }}
                        {{ partial "home/single.html" . }}

@@ -49,7 +49,7 @@ showSubheader = true
 showServices = true
 showRecentWorks = true
 showDownloads = true
-showClients = true
+showTools = true
 ```
 
 ### Footer
