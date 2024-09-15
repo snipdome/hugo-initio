@@ -7,9 +7,11 @@
 -->
 <!-- The following loads multiple images, for the images in .Params.images -->
 <div class="col-lg-12">
+  <a class="tool" href="{{ .Params.url }}">
     <p>
       {{ range .Params.images }}
         <img src= {{ . }} alt="" style="vertical-align:middle;margin:0px 10px;max-height:90px;height:auto;max-width:220">
       {{ end }}
     </p>
+  </a>
 </div>

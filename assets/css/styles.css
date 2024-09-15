@@ -497,6 +497,9 @@ img {
 .thumbnail:hover .cover {
   opacity: 1;
 }
+.tool img {
+  opacity: 0.5;
+}
 /* pagination */
 .pagination > li > a {
   color: #808080;

@@ -5,14 +5,21 @@
 	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
 	
 	<!-- Icons -->
-	<script defer src="https://use.fontawesome.com/releases/v5.0.11/js/all.js" integrity="sha384-ImVoB8Er8knetgQakxuBS4G3RSkyD8IZVVQCAnmRJrDwqJFYUE4YOv+DbIofcO9C" crossorigin="anonymous"></script>
+	<!-- FIX: webserver does not support https  
+	<script defer src="https://use.fontawesome.com/releases/v5.0.11/js/all.js" integrity="sha384-ImVoB8Er8knetgQakxuBS4G3RSkyD8IZVVQCAnmRJrDwqJFYUE4YOv+DbIofcO9C" crossorigin="anonymous"></script> 
+	-->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.11/js/all.js"></script> 
 	
 	<!-- Fonts -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
 	
 	{{ $styles := resources.Get "css/styles.css" }}
-  {{ $css := $styles | resources.Minify | resources.Fingerprint "sha512"  }}
-  <link rel="stylesheet" href="{{ $css.Permalink }}" integrity="{{ $css.Data.Integrity }}">
+  <!--{{ $css := $styles | resources.Minify | resources.Fingerprint "sha512"  }} -->
+  {{ $css := $styles | resources.Minify  }}
+  <!-- FIX: webserver does not support https  
+  <link rel="stylesheet" href="{{ $css.Permalink }}" integrity="{{ $css.Data.Integrity }}"> 
+  -->
+  <link rel="stylesheet" href="{{ $css.Permalink }}">
 
   <!-- Share this --> 
   {{ if .Site.Params.customsharethis }}
