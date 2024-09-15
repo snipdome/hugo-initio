@@ -497,6 +497,7 @@ img {
 .thumbnail:hover .cover {
   opacity: 1;
 }
+.tool { text-align: justify;}
 .tool img {
   opacity: 0.5;
 }
