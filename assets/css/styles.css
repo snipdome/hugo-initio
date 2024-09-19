@@ -466,7 +466,7 @@ img {
   right: 0;
   height: 32px;
   line-height: 32px;
-  padding: 0 20px;
+  padding: 0 60px;
   -webkit-border-radius: 1px 0 0 1px;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 1px 0 0 1px;
@@ -586,7 +586,8 @@ img {
   color: #a5a5a5;
 }
 .entry-content img {
-  width: 60%;
+  display: block;
+  margin: 0 auto;
 }
 .entry-content {
   margin: 0 0 60px 0;
